@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Mono|PT+Serif:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'PT Sans', 'Roboto', 'Verdana', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: aliceblue;
+    background-image: linear-gradient(135deg, #C33764 10%, #1D2671 100%);
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(77, 143, 201);
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.title-thing {
+    font-weight: bold;
+    width: 350px;
+    font-family: 'PT Serif';
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 42px;
+    background-color: #24232365;
+}
+
+fieldset.title-sub {
+    width: 300px;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: lowercase;
+    border-top: 2px solid #acacac;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+fieldset.title-sub:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+fieldset.title-sub legend {
+    padding: 5px 10px;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    height: 50px;
+    width: 400px;
+    background: #eae4e4;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none ;
+}
+
+#button {
+    display: inline-block;
+    width: 80px;
+    height: 49px;
+    border-radius: 15px;
+    color:rgb(239, 243, 247);
+    background: #e95644;
+    font-family: 'PT Serif', 'Georgia', serif;
+    text-align: center;
+    padding-top: 14px;
+}
+
+#clear-button {
+    display: inline-block;
+    width: 80px;
+    height: 49px;
+    color: rgb(239, 243, 247);
+    background: #e95644;
+    font-family: 'PT Serif', 'Georgia', serif;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 15px;
+}
+
+.task {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vl {
+    border-left: 3px solid rgb(233, 227, 227);
+    height: 540px;
+}
+
+.list {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pending-list {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #24232365;
+    border: 2px solid #acacac;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.completed-list {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #24232365;
+    border: 2px solid #acacac;
+    width: 500px;
+}
+
+.item {
+    margin: 5px;
+}
+
+.item:hover {
+    font-style: italic;
+    color: #acacac;
+}

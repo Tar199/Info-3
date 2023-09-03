@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>To Do</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div style="padding: 20px;"></div>
+    <div class='title-thing'>
+        <fieldset class='title-sub'> </fieldset>
+        To-do list
+        <fieldset class='title-sub'> </fieldset>
+    </div>
+    <div style="display: flex;">
+        <div style="padding: 50px;"></div>
+        <div>
+            <div style="padding: 60px;"></div>
+            <form name="checkListForm">
+                <input type="text" name="checkListItem" autocomplete="off" />
+            </form>
+            <div id="button">Add</div>
+            <div id="clear-button">Clear All</div>
+            <br />
+            <div class="list">
+                <div class="item">
+                    <input type="text" class="edit-input" style="display: none;">
+                </div>
+            </div>
+        </div>
+        <div style="padding: 80px;"></div>
+        <div class="vl"></div>
+        <div style="padding: 60px;"></div>
+        <div class="task">
+            <div style="padding: 40px;"></div>
+            <h2>Pending Tasks</h2>
+            <div class="pending-list">  </div>
+            <h2>Completed Tasks</h2>
+            <div class="completed-list"></div>
+        </div>
+    </div>
+    <script src="javas.js"></script>
+</body>
+
+</html>
